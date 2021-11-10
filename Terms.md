@@ -2,20 +2,16 @@
 
 ## Project
 - empty
----
 
 ## Blueprint
 - Visual scripting language(OO based)
 - Objects created by this scripting language are referred to as blueprints
----
 
 ## Object
 - empty
----
 
 ## Class
 - Class defines the behaviors and properties of a particular Actor or Object
----
 
 ## Actor
 - Any object that can be placed into a level
@@ -26,11 +22,9 @@ Example:
 - Camera
 - Light
 ```
----
 
 ## Casting
 - Get properties of the class of the actor casted
----
 
 ## Component
 - Is added to an actor providing the actor with new functionalities
@@ -40,8 +34,6 @@ Example:
 - Rotating Movement Component -> make actor spin
 - Audio Component -> ability to play sound
 ```
-- (spot light component makes the actor emit light)
----
 
 ## Pawn
 - Subclass of actor
@@ -51,7 +43,6 @@ Example:
 - Player avatar
 - AI Dragon avatar
 ```
----
 
 ## Character
 - Subclass of Pawn
@@ -62,7 +53,6 @@ Example:
 - Bipedal movement
 - Rig
 ```
----
 
 ## Player Controller
 - Translates user input into in game actions
@@ -72,7 +62,6 @@ Example:
 - Controller for character one
 - Controller for possesing an enemy
 ```
----
 
 ## AI Controller
 - An AI to controll and bot
@@ -80,7 +69,6 @@ Example:
 Example:
 - Goblin AI
 ```
----
 
 ## Player State
 - State of participant of the game such as human or a bot that is simulating a player
@@ -92,7 +80,6 @@ Example:
 - Health
 - Whether they are currently carrying the flag in a Capture the Flag game
 ```
----
 
 ## Game Mode
 - Game rules
@@ -102,7 +89,6 @@ Example:
 - If a game can be paused
 - Win conditions
 ```
----
 
 ## Game State
 - Container that holds info you want replicated to every client
@@ -113,7 +99,6 @@ Example:
 - Win conditions
 - Game score
 ```
----
 
 ## Brush
 - A prop of the final objects
