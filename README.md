@@ -1,5 +1,5 @@
 # UnrealEngine
 
-## Index
-- [Hotkey](../Hotkeys.md)
+## Table of Contents
+- [Hotkey](..UnrealEngine/Hotkeys.md)
 - [Terms](../Terms.md)
